@@ -1,10 +1,16 @@
-# Vexa (PyTorch Transformer)
+# Vexa (Translator Interface)
 
 A production-ready full-stack web application for German to English machine translation.
 
 - **Backend**: FastAPI + PyTorch + SentencePiece
 - **Frontend**: React (Vite) + Axios
 - **Model**: Trained Transformer checkpoint loaded at startup
+
+---
+
+## Screenshot
+
+![Sign In Page](screenshots/index.png)
 
 ---
 
@@ -167,3 +173,9 @@ curl -X POST "http://localhost:8000/translate" \
 - Restrict CORS origins in `app/main.py`.
 - Consider request logging, rate limiting, and auth for public deployments.
 - Use a GPU-enabled environment for low-latency inference.
+
+## License
+
+This project is for educational / research purposes. [LICENSE](LICENSE)
+According to the license terms, any redistribution (including compiled or modified versions), you **must** retain the original copyright
+notice and the full license text. Copyright © 2025 Rohith Gowda R. All rights reserved.
