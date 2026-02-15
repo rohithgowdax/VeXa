@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+torch
+sentencepiece
+python-dotenv
+numpy

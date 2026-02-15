@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# ML artifacts (keep local, don't track)
+backend/models/*.pt
+backend/models/*.pth
+
+# Logs
+*.log
