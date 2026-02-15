@@ -10,7 +10,8 @@ A production-ready full-stack web application for German to English machine tran
 
 ## Screenshot
 
-![Sign In Page](screenshots/index.png)
+![Intro](screenshots/index.png)
+![Home page](screenshots/translate.png)
 
 ---
 
@@ -176,6 +177,4 @@ curl -X POST "http://localhost:8000/translate" \
 
 ## License
 
-This project is for educational / research purposes. [LICENSE](LICENSE)
-According to the license terms, any redistribution (including compiled or modified versions), you **must** retain the original copyright
-notice and the full license text. Copyright © 2025 Rohith Gowda R. All rights reserved.
+This project is licensed under MIT [LICENSE](LICENSE).
